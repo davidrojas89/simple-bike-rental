@@ -4,7 +4,7 @@ EL código es un simple ejercicio que representa una tienda de renta de biciclet
 AL rentar una bici se debe pasar como parametro un id de usuario y un id de bicileta. Las clases de Usuario y Bicicleta no estan modeladas.
 
 
-###Ejemplo de código cliente:
+### Ejemplo de código cliente:
 ```python
 from bike_rental import BikesRental
 
@@ -25,12 +25,12 @@ final_price = bike_shop_rental.generate_bill('USER001')
 ```
 
 
-###Requerimientos:
+### Requerimientos:
 
 Python 3
 pip install -U pytest
 
 
 
-###Ejecutar Pruebas:
+### Ejecutar Pruebas:
 pytest
