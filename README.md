@@ -6,7 +6,7 @@ AL rentar una bici se debe pasar como parametro un id de usuario y un id de bici
 
 Un ejemplo de código cliente sería:
 
-'''
+'''python
 
 from bike_rental import BikesRental
 
@@ -18,12 +18,12 @@ bike_shop_rental.rent_bike_per_day('USER001', 'BIKE002')
 '''
 
 
-# El Usuario debe devolver todas las bicicletas para generar la factura y calcular el precio final.
-'''
+El Usuario debe devolver todas las bicicletas para generar la factura y calcular el precio final.
+
+'''python
 bike_shop_rental.return_bike('BIKE001')
 
 bike_shop_rental.return_bike('BIKE002')
-
 
 final_price = bike_shop_rental.generate_bill('USER001')
 '''
