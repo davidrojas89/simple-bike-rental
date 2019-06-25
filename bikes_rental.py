@@ -47,7 +47,7 @@ class BikesRental(object):
         rental.finish_rent_time()
         return bike_id
 
-    def bill_booking(self, customer_id):
+    def generate_bill(self, customer_id):
         '''
             Facturar todas las rentas para un usuario, una vez devueltas todas las bicis.
         '''
